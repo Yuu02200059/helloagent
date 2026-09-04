@@ -1,0 +1,27 @@
+# ========== 敏感信息（绝不能提交） ==========
+.env
+.env.*
+!.env.example
+
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ========== Jupyter ==========
+.ipynb_checkpoints/
+
+# ========== IDE / 编辑器 ==========
+.idea/
+.vscode/
+*.iml
+
+# ========== 系统 ==========
+.DS_Store
+Thumbs.db
+
+# ========== 大文件 / 有版权的资料 ==========
+Hello-Agents-V1.0.2-20260210.pdf
+*.pdf
